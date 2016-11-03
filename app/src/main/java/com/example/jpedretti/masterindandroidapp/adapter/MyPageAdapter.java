@@ -12,9 +12,9 @@ import com.example.jpedretti.masterindandroidapp.fragments.SettingsFragment;
  * Created by jpedretti on 03/11/2016.
  */
 
-public class myPageAdapter extends FragmentPagerAdapter {
+public class MyPageAdapter extends FragmentPagerAdapter {
 
-    public myPageAdapter(FragmentManager fm) {
+    public MyPageAdapter(FragmentManager fm) {
         super(fm);
     }
 
@@ -24,13 +24,13 @@ public class myPageAdapter extends FragmentPagerAdapter {
         switch (position) {
             case 0:
                 result = new ListFragment();
-            break;
+                break;
             case 1:
                 result = new ContactFragment();
-            break;
+                break;
             case 2:
                 result = new SettingsFragment();
-            break;
+                break;
         }
 
         return result;
@@ -39,5 +39,23 @@ public class myPageAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         return 3;
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        CharSequence result = null;
+        switch (position) {
+            case 0:
+                result = "LIST";
+                break;
+            case 1:
+                result = "CONTACT";
+                break;
+            case 2:
+                result = "SETTINGS";
+                break;
+        }
+
+        return result;
     }
 }

@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Masterind Android App</string>
+    <string name="contact_fragment">contact fragment</string>
+    <string name="detils_fragment">detils fragment</string>
+    <string name="list_fragment">list fragment</string>
+    <string name="settings_fragment">settings fragment</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
