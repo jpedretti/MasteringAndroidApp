@@ -32,7 +32,7 @@ public class myPageAdapter extends FragmentPagerAdapter {
                 result = new SettingsFragment();
             break;
         }
-        
+
         return result;
     }
 
