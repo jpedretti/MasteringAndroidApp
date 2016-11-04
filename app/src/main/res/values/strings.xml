@@ -4,6 +4,7 @@
     <string name="detils_fragment">detils fragment</string>
     <string name="list_fragment">list fragment</string>
     <string name="settings_fragment">settings fragment</string>
+    <string name="mastering_android_app">Mastering Android App</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
